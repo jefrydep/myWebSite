@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi web site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- link de google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+<!-- link de de iconos wwwwee. iconscout -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">I am JefryG</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home nav__icon'></i>Inicio
+                        </a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-file nav__icon'></i>Acerca de
+                        </a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bxs-meteor nav__icon' style='color:#161eb9' ></i>
+                            Skills
+
+                        </a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">
+                            <i class='bx bx-line-chart nav__icon'></i>
+                            Servicios
+
+                            
+
+                        </a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portafolio" class="nav__link">
+                            <i class='bx bxs-notepad nav__icon'></i>
+                            Portafolio
+
+                        </a>
+
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-message-dots nav__icon'></i>
+                            Contactame
+                        </a>
+
+                    </li>
+                </ul>
+                <i class='bx bx-x nav__close' id="nav-close" style='color:#2925af'  ></i>
+            </div>
+            <div class="nav__btns">
+                <!-- tema para el cambio de boton -->
+                <i class="uil uil-moon cambiar-tema " id="cambiar-tema"></i>
+ 
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-customize' style='color:#2925af' ></i>
+                </div>
+            </div>
+        </nav>
+
+    </header> 
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+                        <a href="" target="" class="home__social-icon">
+                            <i class="uil uil-dribbble"></i>
+
+                        </a>
+                        <a href="" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x='12' y='0' href="img/p6.png"/>
+                            </g>
+                        </svg>
+                        
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Hola, Soy Godofredo Palomino M</h1>
+                        <h3 class="home__subtitle">Full Stack Developer</h3>
+                        <p class="home__description">
+                            soy desarrollador full stack apasionado por las tecnologias de la informacion
+                            y todo lo relacionado al desarrolo de software, pero mis deseos son especialisarme 
+                            en el area de desarrollo movil con Flutter y Dark
+                             
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contactame  <i class="uil uil-message button__icon"></i>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll Down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+
+            </div>
+             
+        </section>
+        <section class="about section" id="about">
+            <h2 class="section__title">Acerca De Mi</h2>
+            <span class="section__subtitle">My Introduction</span>
+            <div class="about__container container grid">
+                <img src="img/p5.png" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Web developer con larga experiencia en el desarrolo de apliaciones web
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01+</span>
+                            <span class="about__info-name">Años <br> Experiensia</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">06+</span>
+                            <span class="about__info-name">Proyecto <br>Completado</span>
+                        </div>
+
+                        <div> 
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Compañias <br> Trabajadas</span>
+                        </div>
+
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="cv/certificado de antecedentes.pdf" class="button button--flex">
+                            
+                           Download CV  <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Techical Level </span>
+            <div class="skills__container container grid">
+                <div>
+                    <!-- skills 1 -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Desarrollo Frontend</h2>
+                                <span class="skills__subtitle">Mas de 1 año</span>
+
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">90%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">80%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">50%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Angular</h3>
+                                    <span class="skills__number">50%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__angular"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- skills 2 -->
+                    
+                </div>
+                <!-- <div>
+                    <!-- skills 3 -->
+                    <div class="skills__content">
+                        <div class="skills__header">
+                            <i class="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Desarrollo Backend</h2>
+                                <span class="skills__subtitle">Mas de 1 año</span>
+
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+
+                        </div>
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">70%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Node Js</h3>
+                                    <span class="skills__number">70%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__node"></span>
+                                </div>
+                            </div>
+                            
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Firebase</h3>
+                                    <span class="skills__number">90%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__firebase"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__title">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">70%</span>
+
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div> 
+            </div>
+        </section>
+        <section class="portafolio section" id="portafolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Trabajos mas recientes</span>
+            <div class="portafolio__container container">
+                <div >
+                     <div class="portafolio__content grid">
+                         <img src="img/mobile-devices-gac80eda0a_640.png" alt="" class="portafolio__img">
+                         <div class="portafolio__data">
+                             <h2 class="portafolio__title">Sitio Web Moderno</h2>
+                             <p class="portafolio__description">Sito Web adaptable para todo los dispositivos</p>
+                             <a href="#" class="button button--flex button--small portafolio__button">
+                                 Demo
+                                 <i class="uil uil-arrow-right button__icon"></i>
+                             </a>
+                         </div>
+                          
+                     </div>
+                     <!-- portafolio 2 -->
+                      
+                </div>
+            </div>
+        </section>
+        <!-- tienes proyectos en mente -->
+        <section class="projet section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">¿Tienes un nuevo proyecto?</h2>
+                        <p class="project__description">Contactame ahora y obten un 30% de descuento</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contactame
+                            <i class="uil uil-message project__icon button__icon"></i>
+
+                        </a>
+                    </div>
+                    <img src="img/p3.png" alt="" class="project__img">
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contactame</h2>
+            <span class="section__subtitle">Con un click</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Llamame</h3>
+                            <span class="contact__subtitle">958-205138</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">Jefrydep@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Localizacion</h3>
+                            <span class="contact__subtitle">Puno-Juliaca-Peru</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">
+
+                            Enviar Mensaje
+                            <i class="uil uil-message button__icon"></i>
+
+                        </a>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h2 class="footer__title">Godofredo</h2>
+                    <span class="footer__subtitle">Full Stack Developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#portafolio" class="footer__link">Portafolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactame</a>
+                    </li>
+
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.facebook.com" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169 Jefrydeper Todos los Derechos Reservados</p>
+        </div>
+
+
+
+
+
+
+
+    </footer>
+
+    
+    <script type="text/javaScript" src="scripts.js"></script>
+</body>
+</html>
